@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;700;900&family=Radio+Canada:wght@700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgba(255,255,255, .9);
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.borda-a {
+    border-image:linear-gradient(90deg, #caff42,  #49708a 70%) 1;
+    border-style: solid;
+    border-image:linear-gradient(90deg, #caff42,  #49708a 70%) 1;
+    border-width: 0px 0px 3px;
+    width: 90%;
+}
+
+.header { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+   
+}
+
+.inicio:hover, .trajetoria:hover, .habilidades:hover, .objetivos:hover, .contatos:hover {
+    border-bottom: 2px solid #caff42;
+}
+
+.inicio, .trajetoria, .habilidades, .objetivos, .contatos {
+    color: #caff42;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+
+
+.logo img {
+    width: 200px;
+    height: 120px;
+}
+
+.cabecalho {
+width: 800px;
+display: flex;
+justify-content: space-around;
+text-decoration: none;
+color: #49708a;
+} 
+
+.bloco1 {
+    margin-top: 20%;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    flex:1;
+  }
+.resumo {
+    display: inline-block;
+    text-align: center;
+
+}
+h1 {
+    color:  #49708a;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 11%;
+}
+
+h2 {
+    color:#caff42;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.bloco1 p {
+    color: #d0e0eb;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 38px;
+
+}
+
+.bloco1 img {
+    width: 25rem;
+    border-radius: 100%;
+}
+
+.bloco2 {
+    margin: auto 0% 0% 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    flex: 1;
+    height: 100%;
+}
+
+
+.bloco2 p {
+    color: #49708a;
+    font-family: 'Roboto Flex';
+    font-size: 23px;
+}
+
+.bloco2 span {
+    color: #caff42;
+}
+.resumo_2 {
+    border-radius: 8rem;
+    margin-top: 1%;
+}
+
+.bloco2 img {
+    width: 45rem;
+}
+
+.bloco3 {
+    height: 100%;
+    flex: 1;
+  
+}
+
+.progress-bar1, .progress-bar2, .progress-bar3, .progress-bar4{
+    --progress: 80;
+    background-color: #d0e0eb;
+    display: flex;
+    margin-left: 5%;
+    height: 1.5rem;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 3%;
+    border: none;
+    margin: 3% 0%;
+    
+
+  
+  }
+  
+  .progress-bar1::before,.progress-bar4::before
+{
+    content: "";
+    width: 85%;
+    background-color:#caff42;
+    height: auto;
+    border-radius: 5px 5px 5px 5px;
+    
+  }
+  
+  .progress-bar2::before,.progress-bar3::before {
+    content: "";
+    width: 60%;
+    background-color:#caff42;
+    height: auto;
+    border-radius: 5px 5px 5px 5px;
+
+}  
+
+.bloco3 {
+    color: #49708a;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 28px;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex: 1;
+    font-weight: 400;
+
+
+
+
+}
+.bloco3-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8%;
+}
+
+
+.graficos {
+    width: 40%;
+
+}
+
+.resumo_3 {
+    text-align: center;
+    width: 40%;
+}
+
+.bloco4 {
+    display: flex;
+    height: 100%;
+    margin: 0px 34%;
+    justify-content: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+    color:#49708a;
+    width: 400px;
+    flex-wrap: wrap;
+    transform: translateY(-2%) rotate(270deg) skewY(1deg) scaleX(1);
+    flex: 1;
+}
+
+
+
+}
+
+h3 {
+    font-size: 19px;
+    font-style: normal;
+    margin: 0%; 
+}
+.bloco4-1 {
+    width: 200px;
+    height: 200px;
+    background-color: #e4ffa6;
+    overflow: hidden;
+	margin: 4%;
+	border-radius: 3%;
+	transform: translateY(50%) rotate(30deg) skewY(30deg) scaleX(.866);
+	cursor: pointer;
+	pointer-events: none;
+
+}
+
+.bloco4-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #caff42;
+    overflow: hidden;
+	margin: 0%;
+	border-radius: 3%;
+	transform: translateY(50%) rotate(30deg) skewY(30deg) scaleX(.866);
+	cursor: pointer;
+	pointer-events: none;
+
+}
+
+.bloco4-3 {
+    width: 200px;
+    height: 200px;
+    background-color: #caff42;
+    overflow: hidden;
+	margin: 0;
+	border-radius: 3%;
+	transform: translateY(50%) rotate(30deg) skewY(30deg) scaleX(.866);
+	cursor: pointer;
+	pointer-events: none;
+
+}
+.bloco4-4 {
+    width: 200px;
+    height: 200px;
+    background-color: #e4ffa6;
+    overflow: hidden;
+	margin: 4%;
+	border-radius: 3%;
+	transform: translateY(50%) rotate(30deg) skewY(30deg) scaleX(.866);
+	cursor: pointer;
+	pointer-events: none;
+
+}
+
+
+
+i {
+    font-style: normal;
+}
+
+.logo_final {
+    text-align: center;
+    
+}
+
+.footer {
+    text-align: center;
+    color:#49708a;
+}
+
+
+    .pa2 {
+    width: 30px;
+    color: #49708a;
+    }
